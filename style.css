@@ -18,7 +18,23 @@ html, body {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding-top: 180px;
+  }
+}
+
+html {
+  background-color: #0f0f14;
+}
+
+body {
+  background-color: #0f0f14;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* FONTE PERSONALIZADA */
@@ -212,4 +228,17 @@ footer {
     height: 200px;
   }
 
+}
+
+/* CORREÇÃO GERAL MOBILE */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #0f0f14;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
