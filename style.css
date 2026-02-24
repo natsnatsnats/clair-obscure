@@ -16,7 +16,7 @@ body {
 /* FONTE PERSONALIZADA */
 @font-face {
   font-family: "CLAIR";
-  src: url("https://raw.githubusercontent.com/natsnatsnats/clair-obscure/main/Cinzel-VariableFont_wght.woff2") format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/SEUUSUARIO/REPO/arquivo.woff2") format("woff2");
 }
 
 /* HEADER */
