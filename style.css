@@ -49,7 +49,6 @@ nav a:hover {
 /* SEÇÕES (padding reduzido) */
 section {
   padding: 40px 20px;
-  margin-top: -20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,6 +57,7 @@ section {
 /* HERO */
 .hero img {
   width: 90%;
+  margin-top: -20px;
   max-width: 1600px;
   height: auto;
   display: block;
