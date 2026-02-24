@@ -66,6 +66,10 @@ section {
   display: block;
 }
 
+.hero {
+  padding: 0 !important;
+}
+
 /* SOBRE */
 .sobre h2 {
   font-size: 34px;
