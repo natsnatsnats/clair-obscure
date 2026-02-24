@@ -1,4 +1,4 @@
-/* RESET */
+/* style.css */
 * {
   margin: 0;
   padding: 0;
@@ -49,7 +49,7 @@ nav a:hover {
   color: #b58cff;
 }
 
-/* SEÇÕES (padding reduzido) */
+/* SEÇÕES */
 section {
   padding: 40px 20px;
   display: flex;
@@ -59,8 +59,7 @@ section {
 
 /* HERO */
 .hero img {
-  width: 90%;
-  margin-top: -20px;
+  width: 100%;
   max-width: 1600px;
   height: auto;
   display: block;
@@ -77,14 +76,18 @@ section {
 }
 
 .sobre video {
-  width: 90%;
+  width: 100%;
   max-width: 1000px;
-  margin-bottom: 15px; /* reduz espaço */
+  margin-bottom: 15px;
 }
 
 /* OBSCUR */
 .obscur {
   padding: 5px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .obscur img {
@@ -105,14 +108,16 @@ section {
 /* PARÁGRAFOS */
 .sobre p {
   max-width: 800px;
+  width: 100%;
   line-height: 1.6;
   margin-bottom: 12px;
+  padding: 0 15px;
 }
 
 /* TRAILER */
-iframe {
+.trailer iframe {
   margin-top: 20px;
-  width: 80%;
+  width: 100%;
   max-width: 900px;
   height: 450px;
   border-radius: 10px;
@@ -126,9 +131,8 @@ footer {
   font-size: 14px;
 }
 
-/* Tablets */
+/* TABLETS */
 @media (max-width: 1024px) {
-
   nav {
     gap: 20px;
   }
@@ -137,15 +141,13 @@ footer {
     font-size: 28px;
   }
 
-  iframe {
+  .trailer iframe {
     height: 350px;
   }
-
 }
 
-/* Celulares */
+/* CELULARES */
 @media (max-width: 768px) {
-
   header {
     padding: 15px 10px;
   }
@@ -156,12 +158,11 @@ footer {
   }
 
   main {
-    padding-top: 140px; /* aumenta por causa do menu em coluna */
+    padding-top: 140px;
   }
 
   .hero img {
     width: 100%;
-    margin-top: 0;
   }
 
   .sobre h2 {
@@ -177,7 +178,7 @@ footer {
     width: 100%;
   }
 
-  iframe {
+  .trailer iframe {
     width: 100%;
     height: 250px;
   }
@@ -189,12 +190,10 @@ footer {
   footer {
     font-size: 12px;
   }
-
 }
 
-/* Celulares pequenos */
+/* CELULARES PEQUENOS */
 @media (max-width: 480px) {
-
   nav a {
     font-size: 14px;
   }
@@ -203,8 +202,11 @@ footer {
     font-size: 20px;
   }
 
-  iframe {
+  .trailer iframe {
     height: 200px;
   }
 
+  .sobre p {
+    font-size: 13px;
+  }
 }
