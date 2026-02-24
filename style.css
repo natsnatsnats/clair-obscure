@@ -91,6 +91,15 @@ section {
   padding: 0 !important;
 }
 
+iframe {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border-radius: 10px;
+  border: none;
+}
+
 /* SOBRE */
 .sobre h2 {
   font-size: 34px;
